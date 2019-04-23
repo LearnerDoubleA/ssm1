@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f77abf3-fc72-4c27-9022-3ba4934d05ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-redis.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5f77abf3-fc72-4c27-9022-3ba4934d05ff" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,17 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application-redis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
-              <folding>
-                <element signature="e#1301#1319#0" expanded="true" />
-                <element signature="e#1367#1385#0" expanded="true" />
-                <element signature="e#1432#1455#0" expanded="true" />
-                <element signature="e#1715#1730#0" expanded="true" />
-                <element signature="e#1783#1798#0" expanded="true" />
-                <element signature="e#1851#1870#0" expanded="true" />
-                <element signature="e#1922#1940#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-150">
+              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -66,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/conf/redis.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="575">
+              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -137,6 +126,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/szh/conf/redis.properties" />
         <option value="$PROJECT_DIR$/src/main/java/szh/conf/ThreadSpringConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/conf/redis.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/application-redis.xml" />
       </list>
     </option>
@@ -322,7 +312,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556006048895" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556006250365" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -483,12 +473,12 @@
       <workItem from="1555921744336" duration="724000" />
       <workItem from="1555924353299" duration="2544000" />
       <workItem from="1556001152661" duration="676000" />
-      <workItem from="1556002213383" duration="3762000" />
+      <workItem from="1556002213383" duration="4210000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9144000" />
+    <option name="totallyTimeSpent" value="9592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -638,24 +628,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/conf/redis.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="575">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application-redis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
-          <folding>
-            <element signature="e#1301#1319#0" expanded="true" />
-            <element signature="e#1367#1385#0" expanded="true" />
-            <element signature="e#1432#1455#0" expanded="true" />
-            <element signature="e#1715#1730#0" expanded="true" />
-            <element signature="e#1783#1798#0" expanded="true" />
-            <element signature="e#1851#1870#0" expanded="true" />
-            <element signature="e#1922#1940#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-150">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
