@@ -1,4 +1,4 @@
-package conf;
+package szh.conf;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,7 +17,7 @@ public class ThreadSpringConfig {
     private Properties prop = new Properties();
 
     public ThreadSpringConfig() {
-        InputStream in = ThreadSpringConfig.class.getClassLoader().getResourceAsStream("com/surf/conf/threadPool.properties");
+        InputStream in = ThreadSpringConfig.class.getClassLoader().getResourceAsStream("com/surf/szh.conf/threadPool.properties");
 
         try {
             prop.load(in);

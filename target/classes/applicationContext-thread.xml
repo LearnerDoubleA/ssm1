@@ -35,6 +35,6 @@
     </bean>-->
 
     <!--  java类配置 -->
-    <bean id="threadSpringConfig" class="conf.ThreadSpringConfig"/>
+    <bean id="threadSpringConfig" class="szh.conf.ThreadSpringConfig"/>
 
 </beans>
