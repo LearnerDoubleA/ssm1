@@ -17,7 +17,7 @@ public class ThreadSpringConfig {
     private Properties prop = new Properties();
 
     public ThreadSpringConfig() {
-        InputStream in = ThreadSpringConfig.class.getClassLoader().getResourceAsStream("com/surf/szh.conf/threadPool.properties");
+        InputStream in = ThreadSpringConfig.class.getClassLoader().getResourceAsStream("main/resources/conf/threadPool.properties");
 
         try {
             prop.load(in);

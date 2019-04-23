@@ -11,9 +11,8 @@
                         http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd
                         http://www.springframework.org/schema/cache
                         http://www.springframework.org/schema/cache/spring-cache-4.2.xsd">
-        
     <!-- 读取redis配置文件 --> 
-    <context:property-placeholder location="classpath:szh/conf/redis.properties" file-encoding="UTF-8" ignore-unresolvable="true"/>
+    <context:property-placeholder location="classpath:conf/redis.properties" file-encoding="UTF-8"/>
         
     <!-- jedis 配置 -->   
     <bean id="poolConfig" class="redis.clients.jedis.JedisPoolConfig">
@@ -30,14 +29,24 @@
         <property name="password" value="${redis.password}"></property>
         <property name="timeout" value="${redis.timeout}"></property>
     </bean>  
-           
+       
     <bean id="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate">
-        <property name="connectionFactory" ref="connectionFactory"/>
+        <property name="connectionFactory" ref="connectionFactory" />
+        <!--如果不配置Serializer，那么存储的时候缺省使用String，如果用User类型存储，那么会提示错误User can't cast to String！！ -->
         <property name="keySerializer">
-            <bean class="org.springframework.data.redis.serializer.StringRedisSerializer"/>
+            <bean class="org.springframework.data.redis.serializer.StringRedisSerializer" />
         </property>
-        <property name="valueSerializer"> 
-            <bean class="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer"/>
+        <property name="valueSerializer">
+            <bean class="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer" />
+        </property>
+        <property name="hashKeySerializer">
+            <bean class="org.springframework.data.redis.serializer.StringRedisSerializer" />
+        </property>
+        <property name="hashValueSerializer">
+            <bean class="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer" />
         </property>
     </bean>
+
+    <!-- redis工具类 -->
+    <!--<bean id="redisUtil" class=""></bean>-->
 </beans>
