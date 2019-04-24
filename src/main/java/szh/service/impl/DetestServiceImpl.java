@@ -14,8 +14,7 @@ public class DetestServiceImpl implements DetestService {
     @Override
     public int testAction() {
 
-        int i = testDao.selectCount();
-
+        int i = 0;
         return i;
     }
 }
