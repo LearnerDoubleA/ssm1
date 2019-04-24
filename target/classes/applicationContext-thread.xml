@@ -29,10 +29,6 @@
             <bean class="java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy" />
         </property>
     </bean>
-    <!-- 线程发送短信 -->
-    <!--<bean id="adjustClassApplyThread" class="com.surfkj.oa.adjustClass.action.AdjustClassApplyThread" lazy-init="false" scope="prototype">
-
-    </bean>-->
 
     <!--  java类配置 -->
     <bean id="threadSpringConfig" class="szh.conf.ThreadSpringConfig"/>

@@ -8,7 +8,7 @@ import szh.service.DetestService;
 @Service
 public class DetestServiceImpl implements DetestService {
 
-    @Autowired(required = false)
+
     private DetestDao testDao;
 
     @Override

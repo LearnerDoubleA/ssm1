@@ -10,8 +10,7 @@ import java.util.Properties;
 import java.util.concurrent.*;
 
 
-@Configuration
-@EnableScheduling
+
 public class ThreadSpringConfig {
 
     private Properties prop = new Properties();

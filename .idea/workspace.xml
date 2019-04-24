@@ -8,24 +8,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5f77abf3-fc72-4c27-9022-3ba4934d05ff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/szh/bean/Detest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/szh/bean/Detest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/szh/dao/DetestDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/szh/dao/DetestDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/szh/conf/ThreadSpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/szh/conf/ThreadSpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/szh/service/impl/DetestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/szh/service/impl/DetestServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext-thread.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-thread.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/DetestMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/DetestMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-redis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/conf/redis.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/conf/redis.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/DetestMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/DetestMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szh/bean/Detest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szh/bean/Detest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szh/dao/DetestDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szh/dao/DetestDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/szh/service/impl/DetestServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szh/service/impl/DetestServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm1/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm1/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm1/WEB-INF/classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm1/WEB-INF/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm1/WEB-INF/classes/mapper/DetestMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm1/WEB-INF/classes/mapper/DetestMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm1/WEB-INF/classes/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm1/WEB-INF/classes/spring-mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm1/WEB-INF/classes/szh/bean/Detest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm1/WEB-INF/classes/szh/bean/Detest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm1/WEB-INF/classes/szh/dao/DetestDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm1/WEB-INF/classes/szh/dao/DetestDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm1/WEB-INF/classes/szh/service/impl/DetestServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm1/WEB-INF/classes/szh/service/impl/DetestServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext-thread.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext-thread.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm1/WEB-INF/classes/applicationContext-thread.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm1/WEB-INF/classes/applicationContext-thread.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,7 +41,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
@@ -78,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/DetestMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+            <state relative-caret-position="150">
+              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -99,8 +87,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="98" column="34" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="34" />
+            <state relative-caret-position="167">
+              <caret line="94" column="67" selection-start-line="94" selection-start-column="67" selection-end-line="94" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-thread.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="28" column="72" lean-forward="true" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
+              <folding>
+                <element signature="e#1288#1305#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/szh/conf/ThreadSpringConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/szh/service/impl/DetestServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -122,24 +140,6 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/szh/controller/DetestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -149,6 +149,7 @@
       <find>jstl</find>
       <find>org.mybatis.spring.mapper.MapperScannerConfigurer</find>
       <find>tk.</find>
+      <find>ThreadSpringConfig</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -159,17 +160,17 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/szh/controller/DetestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/conf/ThreadSpringConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext-thread.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/szh/conf/redis.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/szh/conf/ThreadSpringConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/conf/redis.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/application-redis.xml" />
         <option value="$PROJECT_DIR$/src/main/java/szh/dao/DetestDao.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/DetestMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/szh/bean/Detest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/szh/service/impl/DetestServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext-thread.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/szh/conf/ThreadSpringConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szh/service/impl/DetestServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/DetestMapper.xml" />
       </list>
     </option>
   </component>
@@ -354,7 +355,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556072916998" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556073436948" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -516,12 +517,12 @@
       <workItem from="1555924353299" duration="2544000" />
       <workItem from="1556001152661" duration="676000" />
       <workItem from="1556002213383" duration="4210000" />
-      <workItem from="1556071151834" duration="1541000" />
+      <workItem from="1556071151834" duration="2289000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11133000" />
+    <option name="totallyTimeSpent" value="11881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -539,7 +540,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991323" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -583,24 +584,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://E:/JDK/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="322" column="13" selection-start-line="322" selection-start-column="13" selection-end-line="322" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/conf/threadPool.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/szh/conf/ThreadSpringConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="19" column="93" selection-start-line="19" selection-start-column="93" selection-end-line="19" selection-end-column="93" />
         </state>
       </provider>
     </entry>
@@ -640,16 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-thread.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" column="78" selection-start-line="24" selection-start-column="78" selection-end-line="24" selection-end-column="78" />
-          <folding>
-            <element signature="e#1288#1305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -680,32 +657,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/szh/service/impl/DetestServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/DetestMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="98" column="34" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="177" selection-start-line="177" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="94" column="67" selection-start-line="94" selection-start-column="67" selection-end-line="94" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JDK/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="2022" column="24" selection-start-line="2022" selection-start-column="24" selection-end-line="2022" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-thread.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="28" column="72" lean-forward="true" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
+          <folding>
+            <element signature="e#1288#1305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/szh/conf/ThreadSpringConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/szh/service/impl/DetestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/DetestMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
         </state>
       </provider>
     </entry>
