@@ -9,14 +9,14 @@ import java.io.InputStream;
 import java.util.Properties;
 import java.util.concurrent.*;
 
-
-
+@Configuration
+@EnableScheduling
 public class ThreadSpringConfig {
 
     private Properties prop = new Properties();
 
     public ThreadSpringConfig() {
-        InputStream in = ThreadSpringConfig.class.getClassLoader().getResourceAsStream("resources/conf/threadPool.properties");
+        InputStream in = ThreadSpringConfig.class.getClassLoader().getResourceAsStream("conf/threadPool.properties");
 
         try {
             prop.load(in);
